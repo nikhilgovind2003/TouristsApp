@@ -21,9 +21,9 @@ const Header = () => {
   return (
     <div className=" flex w-full justify-between items-center px-44 py-4 bg-gray-50 fixed top-0 z-10 shadow-3xl">
       {/* ======== LOGO ======== */}
-      <div className="">
+      <Link to="/home">
         <img src={logo} className=" w-[30%]" alt="logo" />
-      </div>
+      </Link>
       {/* ======= NavLinks ========= */}
       <div>
         <ul className=" flex items-center gap-8">
